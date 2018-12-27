@@ -1,0 +1,59 @@
+
+/* Fundo do menu */
+
+/* Remove as bolinhas do lado das listas */
+.menu .menu-list, .menu .sub-menu{
+    list-style: none;
+}
+/* Configura todos os links do nosso menu */
+.menu a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing:0.2em;
+}
+/* Faz os <li>s ficarem na horizontal */
+.menu > .menu-list > li{
+    float: left;
+    position: relative;
+}
+
+
+/* Configura o fundo do menu principal quando com mouse hover */
+.menu > .menu-list > li:hover a {
+    background: rgba(0, 0, 0, 0.1);
+}
+/* Mostra o submenu no evento de mouse hover */
+.menu > .menu-list > li:hover > .sub-menu {
+    display: block;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* Configura o estilo do submenu */
+.menu > .menu-list > li > .sub-menu {
+    position: absolute;
+    top: 50px;
+    left: 1px;
+    background: rgba(0, 0, 0, 0.5);
+    min-width: 200px;
+    z-index: 1000;
+    display: none;
+}
+/* Configura os links do submenu */
+.menu > .menu-list > li > .sub-menu > li > a {
+    padding: 10px 1px;
+}
+/* Clearfix para o menu */
+.menu:after {
+    content: '.';
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
