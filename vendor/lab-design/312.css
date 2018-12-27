@@ -25,7 +25,7 @@
 
 /* Configura o fundo do menu principal quando com mouse hover */
 .menu > .menu-list > li:hover a {
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0);
 }
 /* Mostra o submenu no evento de mouse hover */
 .menu > .menu-list > li:hover > .sub-menu {
@@ -38,7 +38,7 @@
     position: absolute;
     top: 50px;
     left: 1px;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.2);
     min-width: 200px;
     z-index: 1000;
     display: none;
@@ -56,4 +56,6 @@
     line-height: 0;
     height: 0;
 }
+
+
 

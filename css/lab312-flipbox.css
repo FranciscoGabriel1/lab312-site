@@ -2,7 +2,7 @@
 /* O recipiente de flip box - defina a largura e altura para o que você quiser. Nós adicionamos a propriedade border para demonstrar que o flip em si sai da caixa em foco (remova a perspectiva se você não quiser o efeito 3D*/
 .flip-box {
     background-color: transparent;
-    width: 300px;
+    width: 100%;
     height: 350px;
     perspective: 1000px; /* Remova isso se você não quiser o efeito 3D */
 }
@@ -23,7 +23,7 @@
 }
 
 /* Posicione a frente e o verso */
-.flip-box-front, .flip-box-back {
+.flip-box-front, .flip-box-back,.flip-box-back2,.flip-box-back3 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -38,7 +38,17 @@
 
 /* Estilo no verso */
 .flip-box-back {
-    background-color: dodgerblue;
+    background-color: #00BFA5;
+    color: white;
+    transform: rotateY(180deg);
+}
+.flip-box-back2 {
+    background-color: #F50057;
+    color: white;
+    transform: rotateY(180deg);
+}
+.flip-box-back3 {
+    background-color: #AA00FF;
     color: white;
     transform: rotateY(180deg);
 }

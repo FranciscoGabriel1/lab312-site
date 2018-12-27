@@ -32,15 +32,28 @@
     <link href="css/agency.min.css" rel="stylesheet">
     <link href="css/lab312-flipbox.css" rel="stylesheet">
 
+    <style>
+      .vamos{
+        background-color: #00ACC1;
+        color: #FAFAFA;
+        border: 1px solid #FAFAFA;
+
+      }
+      .vamos:hover{
+        background-color: #006064;
+        color: #eeeeee;
+        border: 1px solid #eeeeee;
+      }
+    </style>
   </head>
 
   <body id="page-top">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
       <div class="container">
        <a class="navbar-brand js-scroll-trigger" href="#page-top">Lab312</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <button style="background-color: #00ACC1;" class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fas fa-bars"></i>
         </button>
@@ -91,7 +104,7 @@
               <a class="nav-link js-scroll-trigger" href="#rh">Colaboradores</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contatos">Contatos</a>
+              <a class="nav-link js-scroll-trigger" href="#contact">Contatos</a>
             </li>
           </ul>
         </div>
@@ -104,23 +117,24 @@
         <div class="intro-text">
           <div class="intro-lead-in">Bem-vindo ao Lab312!</div>
           <div class="intro-heading text-uppercase">Conheça nosso laboratório!</div>
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#ensino">Vamos lá!</a>
+          <a class="btn vamos btn-xl text-uppercase js-scroll-trigger" href="#ensino" >Vamos lá!</a>
         </div>
       </div>
     </header>
 
     <!-- quem somos-->
     <section >
-      <div class="container" id="quemsomos">
+      <div id="quemsomos" >
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Quem somos</h2>
             <h3 class="section-subheading text-muted">O Objetivo do Lab312 é ...</h3>
           </div>
         </div>
-        <div class="row text-center">
 
-          <div class="col-md-4">
+
+        <div class="row text-center" style="width: 100%;">
+          <div style="width: 30%;margin-left: 5%;margin-right: 1%;">
               <div class="flip-box">
                   <div class="flip-box-inner">
                       <div class="flip-box-front" style="background-color: #1DE9B6;"> <!--FRENTE-->
@@ -134,13 +148,13 @@
               </div>
           </div>
 
-          <div class="col-md-4">
+            <div style="width: 30%;margin-right: 1%;">
               <div class="flip-box">
                   <div class="flip-box-inner">
-                      <div class="flip-box-front" style="background-color: #1DE9B6;"> <!--FRENTE-->
+                      <div class="flip-box-front" style="background-color: #FF4081"> <!--FRENTE-->
 
                       </div>
-                      <div class="flip-box-back"> <!--VERSO-->
+                      <div class="flip-box-back2"> <!--VERSO-->
                           <h2>Visão</h2>
                           <p>A visão do lab312 é se tornar ...</p>
                       </div>
@@ -148,13 +162,13 @@
               </div>
           </div>
 
-          <div class="col-md-4">
+            <div style="width: 30%;">
               <div class="flip-box">
                   <div class="flip-box-inner">
-                      <div class="flip-box-front" style="background-color: #1DE9B6;"> <!--FRENTE-->
+                      <div class="flip-box-front" style="background-color:#D500F9;"> <!--FRENTE-->
 
                       </div>
-                      <div class="flip-box-back"> <!--VERSO-->
+                      <div class="flip-box-back3"> <!--VERSO-->
                           <h2>Valores</h2>
                           <ul>
                               <li>Criatividade</li>
@@ -170,106 +184,12 @@
       </div>
     </section>
 
-    <!--portfolio-->
-    <section class="p-0" id="portfolio">
-        <div class="container-fluid p-0">
-            <div class="row no-gutters popup-gallery">
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
-                        <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
-                        <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
-                        <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
-                        <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
-                        <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
-                        <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- atividades -->
+
+
+
+    <!-- ensino -->
     <section id="ensino">
-      <div class="container">
+      <div class="container" >
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Atividades</h2>
