@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe124c4e-4f55-4704-9195-7790f624e6ae" name="Default" comment="">
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/agency.css" afterPath="$PROJECT_DIR$/css/agency.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/agency.min.css" afterPath="$PROJECT_DIR$/css/agency.min.css" />
@@ -16,9 +17,16 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_variables.scss" afterPath="$PROJECT_DIR$/scss/_variables.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fontawesome-free/package.json" afterPath="$PROJECT_DIR$/vendor/fontawesome-free/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lab-design/312.css" afterPath="$PROJECT_DIR$/vendor/lab-design/312.css" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/lab312.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lab312.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/phpRuntime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/agency.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/agency.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+>>>>>>> 659c1f6c8c18d8f0b2c1b2d8db1bb2577f81f0aa
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,11 +34,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="170">
               <caret line="178" column="31" lean-forward="true" selection-start-line="178" selection-start-column="31" selection-end-line="178" selection-end-column="31" />
+=======
+            <state relative-caret-position="458">
+              <caret line="150" column="36" lean-forward="true" selection-start-line="150" selection-start-column="36" selection-end-line="150" selection-end-column="36" />
+>>>>>>> 659c1f6c8c18d8f0b2c1b2d8db1bb2577f81f0aa
               <folding>
                 <element signature="n#style#0;n#button#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -40,22 +53,62 @@
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+<<<<<<< HEAD
                 <element signature="n#style#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+=======
+                <element signature="n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
+>>>>>>> 659c1f6c8c18d8f0b2c1b2d8db1bb2577f81f0aa
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="312.css" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/agency.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="3453" selection-start-line="4" selection-start-column="3453" selection-end-line="4" selection-end-column="3453" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.bundle.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/lab-design/312.css">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="340">
               <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
               <folding />
+=======
+            <state relative-caret-position="442">
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/lab312-flipbox.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+>>>>>>> 659c1f6c8c18d8f0b2c1b2d8db1bb2577f81f0aa
             </state>
           </provider>
         </entry>
@@ -111,17 +164,20 @@
         <option value="$PROJECT_DIR$/css/lab.css" />
         <option value="$PROJECT_DIR$/teste.html" />
         <option value="$PROJECT_DIR$/css/lab312.css" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/css/lab312-flipbox.css" />
         <option value="$PROJECT_DIR$/css/agency.min.css" />
         <option value="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/css/agency.css" />
+=======
+>>>>>>> 659c1f6c8c18d8f0b2c1b2d8db1bb2577f81f0aa
         <option value="$PROJECT_DIR$/vendor/lab-design/312.css" />
+        <option value="$PROJECT_DIR$/css/agency.min.css" />
+        <option value="$PROJECT_DIR$/css/lab312-flipbox.css" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsFlowSettings">
     <service-enabled>false</service-enabled>
     <exe-path />
@@ -129,39 +185,27 @@
     <other-services-enabled>false</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <gulpfiles>
-      <GulpfileState>
-        <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
-      </GulpfileState>
-    </gulpfiles>
-    <sorting>DEFINITION_ORDER</sorting>
+  <component name="PhpServers">
+    <servers />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
     <include_path>
-      <path value="C:\Arquivos de Programas" />
+      <path value="C:/Arquivos de Programas" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
+<<<<<<< HEAD
     <option name="y" value="32" />
+=======
+    <option name="y" value="-8" />
+>>>>>>> 659c1f6c8c18d8f0b2c1b2d8db1bb2577f81f0aa
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -170,10 +214,11 @@
         <subPane>
           <expand>
             <path>
-              <item name="lab312" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lab312" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lab312-site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab312-site" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
+<<<<<<< HEAD
               <item name="lab312" type="b2602c69:ProjectViewProjectNode" />
               <item name="lab312" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
@@ -182,37 +227,54 @@
               <item name="lab312" type="b2602c69:ProjectViewProjectNode" />
               <item name="lab312" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
+=======
+              <item name="lab312-site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab312-site" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 659c1f6c8c18d8f0b2c1b2d8db1bb2577f81f0aa
             </path>
             <path>
-              <item name="lab312" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lab312" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lab312-site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab312-site" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="lab312" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lab312" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lab312-site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab312-site" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="lab312" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lab312" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="lab-design" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lab312-site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab312-site" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab312-site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab312-site" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+<<<<<<< HEAD
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../444" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
+=======
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+>>>>>>> 659c1f6c8c18d8f0b2c1b2d8db1bb2577f81f0aa
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -232,8 +294,8 @@
       </list>
     </option>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -257,14 +319,22 @@
       <workItem from="1538899449076" duration="1089000" />
       <workItem from="1538929341225" duration="69000" />
       <workItem from="1539269817847" duration="2569000" />
+<<<<<<< HEAD
       <workItem from="1545932728697" duration="16460000" />
       <workItem from="1546128081953" duration="6193000" />
       <workItem from="1546525663527" duration="555000" />
       <workItem from="1546797837551" duration="1130000" />
+=======
+      <workItem from="1545932728697" duration="14398000" />
+      <workItem from="1546552786590" duration="1216000" />
+      <workItem from="1546633000846" duration="2260000" />
+      <workItem from="1547754147311" duration="3257000" />
+>>>>>>> 659c1f6c8c18d8f0b2c1b2d8db1bb2577f81f0aa
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="55190000" />
   </component>
   <component name="ToolWindowManager">
@@ -289,19 +359,41 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+=======
+    <option name="totallyTimeSpent" value="51983000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15658094" />
+      <window_info id="Gulp" order="1" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Structure" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+>>>>>>> 659c1f6c8c18d8f0b2c1b2d8db1bb2577f81f0aa
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
-  </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/vendor/lab-design/312.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1003">
@@ -766,45 +858,31 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 659c1f6c8c18d8f0b2c1b2d8db1bb2577f81f0aa
     <entry file="file://$PROJECT_DIR$/img/logos/creative-market.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/img/logos/designmodo.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/img/logos/envato.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/img/logos/themeforest.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/img/about/3.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/img/about/4.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/img/about/1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/img/team/1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/css/lab.css" />
     <entry file="file://$PROJECT_DIR$/teste.html" />
@@ -815,12 +893,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/header-bg.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/map-image.png">
+<<<<<<< HEAD
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -831,9 +905,13 @@
           <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
         </state>
       </provider>
+=======
+      <provider selected="true" editor-type-id="images" />
+>>>>>>> 659c1f6c8c18d8f0b2c1b2d8db1bb2577f81f0aa
     </entry>
     <entry file="file://$PROJECT_DIR$/css/agency.min.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="217">
           <caret line="4" column="8042" lean-forward="true" selection-start-line="4" selection-start-column="8042" selection-end-line="4" selection-end-column="8042" />
         </state>
@@ -844,11 +922,38 @@
         <state relative-caret-position="340">
           <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
           <folding />
+=======
+        <state relative-caret-position="194">
+          <caret line="5" column="138345" selection-start-line="5" selection-start-column="138345" selection-end-line="5" selection-end-column="138345" />
+          <folding>
+            <element signature="e#57526#57726#2" expanded="true" />
+            <element signature="e#57934#58083#2" expanded="true" />
+            <element signature="e#58585#58731#2" expanded="true" />
+            <element signature="e#59032#59198#1" expanded="true" />
+            <element signature="e#70814#71057#2" expanded="true" />
+            <element signature="e#71924#72173#2" expanded="true" />
+            <element signature="e#99236#99426#2" expanded="true" />
+            <element signature="e#99472#99662#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/header-bg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+>>>>>>> 659c1f6c8c18d8f0b2c1b2d8db1bb2577f81f0aa
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/agency.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="391">
           <caret line="694" column="30" lean-forward="false" selection-start-line="694" selection-start-column="30" selection-end-line="694" selection-end-column="30" />
         </state>
@@ -858,13 +963,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="5" column="6386" lean-forward="false" selection-start-line="5" selection-start-column="6386" selection-end-line="5" selection-end-column="6386" />
+=======
+        <state relative-caret-position="442">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/lab312-flipbox.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/agency.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="3453" selection-start-line="4" selection-start-column="3453" selection-end-line="4" selection-end-column="3453" />
+>>>>>>> 659c1f6c8c18d8f0b2c1b2d8db1bb2577f81f0aa
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="170">
           <caret line="178" column="31" lean-forward="true" selection-start-line="178" selection-start-column="31" selection-end-line="178" selection-end-column="31" />
+=======
+        <state relative-caret-position="458">
+          <caret line="150" column="36" lean-forward="true" selection-start-line="150" selection-start-column="36" selection-end-line="150" selection-end-column="36" />
+>>>>>>> 659c1f6c8c18d8f0b2c1b2d8db1bb2577f81f0aa
           <folding>
             <element signature="n#style#0;n#button#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -874,11 +1002,17 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+<<<<<<< HEAD
             <element signature="n#style#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+=======
+            <element signature="n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
+>>>>>>> 659c1f6c8c18d8f0b2c1b2d8db1bb2577f81f0aa
           </folding>
         </state>
       </provider>
