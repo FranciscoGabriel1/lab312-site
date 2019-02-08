@@ -1,0 +1,267 @@
+
+body {
+    font-family: 'Dosis', serif;
+}
+@font-face {
+    font-family: Dosis;
+    src: url(../fonts/dosis/Dosis-Regular.otf)
+}
+@font-face {
+    font-family: DosisExtraLight;
+    src: url(../fonts/dosis/Dosis-ExtraLight.otf)
+}
+
+@font-face {
+    font-family: Finger;
+    src: url(../fonts/finger-paint/FingerPaint-Regular.ttf)
+}
+
+.finger{
+    font-family: Finger, sans-serif;
+}
+
+.doris-regular {
+    font-family: Dosis, sans-serif;
+}
+.doris-extra-light{
+    font-family: DosisExtraLight, sans-serif;
+}
+
+
+#header {
+    background-color: #f1f1f1; /* Grey background */
+    padding: 50px 10px; /* Some padding */
+    color: black;
+    text-align: center; /* Centered text */
+    font-size: 90px; /* Big font size */
+    font-weight: bold;
+    position: fixed; /* Fixed position - sit on top of the page */
+    top: 0;
+    width: 100%; /* Full width */
+    transition: 0.2s; /* Add a transition effect (when scrolling - and font size is decreased) */
+}
+
+.vamos {
+    background-color: #00ACC1;
+    color: #eeeeee;
+    border: 0px solid #FAFAFA;
+    border-radius: 0px;
+}
+.linha_titulo{
+    width: 20%;
+    margin-bottom: 3%;
+}
+.vamos:hover {
+    background-color: #008F84;
+    color: #FAFAFA;
+    border: 0px solid #eeeeee;
+    /*border-radius: 50px;*/
+    box-shadow: 5px 10px rgba(0,0,0,0.08);
+}
+.card_projetos{
+    background-image: url("../img/item/card_projetos.png");
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size: 90% 100%;
+    text-decoration: none;
+    width: 90%;
+}
+.card_projetos:hover{
+    background-image: url("../img/item/card_projetos_hover.png");
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size: 90% 100%;
+    width: 90%;
+    text-decoration: none;
+    color: #00ACC1;
+}
+a{
+    text-decoration: none;
+}
+.titulo_card_projeto{
+    text-align: center;
+    margin-top: 4%;
+    color: #eeeeee;
+    font-family: Dosis;
+}
+.texto_card_projeto{
+    font-family: Dosis;
+    color: #eeeeee;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.projetos{
+    margin-bottom: 0px;
+    font-family: Dosis;
+
+}
+
+/*efeitos parallax*/
+
+/**{margin:0; padding: 0;}*/
+/*html, body {height:100%;}*/
+
+/** formata elementos que tem backgrounds parallax **/
+.bgParallax {
+    font-family: 'Dosis', cursive;
+    color:#FFF;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1920px;
+    position: relative;
+    min-height: 100%;
+    /*text-shadow:0 0 10px rgba(0,0,0,0.7);*/
+
+    background-position: 50% 0;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+.branco-transparente{
+    background-color: rgba(254,254,254,0.9);
+}
+
+input{
+    border-radius:2px;
+    -moz-border-radius:2px;
+    background: #ffffff;
+    border:0.1px solid #D2D3D5;
+    width:150px;
+}
+input:hover{
+    border-radius:2px;
+    -moz-border-radius:2px;
+    background: #ffffff;
+    border:0.1px solid #12CECE;
+    width:150px
+}
+select{
+    /*#12CECE;*/
+    border-radius:2px;
+    -moz-border-radius:2px;
+    background: #ffffff;
+    border:0.1px solid #D2D3D5;
+    width:150px;
+}
+select:hover{
+    /*#12CECE;*/
+    border-radius:2px;
+    -moz-border-radius:2px;
+    background: #ffffff;
+    border:0.1px solid  #12CECE;
+    width:150px;
+}
+
+/* Define backgrounds dos divs */
+#quemsomos {
+    background-image: url("../img/item/back1.png");
+}
+#publicacoes{
+    background-image: url("../img/item/back2.png");
+    color: #eee;
+}
+.section_projetos{
+    background-image: url('../img/item/back_projetos.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:scroll;
+    background-position:center center;
+    border-top: 0px;
+}
+
+#missao {
+    background-image: url("../img/item/back_projetos.png");
+    -webkit-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+    -moz-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+    /*-ms-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);*/
+    /*-o-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);*/
+    box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+}
+a.sem_underline:link
+{
+    text-decoration:none;
+}
+
+/*formatando minhas tabs*/
+
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+/*#tabs{*/
+    /*background: #239096;*/
+    /*color: #eee;*/
+/*}*/
+#publicacoes h6.section-title{
+    color: #eee;
+}
+
+#publicacoes .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #f3f3f3;
+    background-color: transparent;
+    border-color: transparent transparent #f3f3f3;
+    border-bottom: 4px solid !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+#publicacoes .nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color: #eee;
+    font-size: 20px;
+}
+/*fim --- formatacao das tabs*/
+
+
+/*tabela de publicacoes*/
+#tabela{
+    width:100%;
+    border:solid 1px;
+    text-align:left;
+    border-collapse:collapse;
+}
+
+#tabela tbody tr{
+    border:solid 1px;
+    height:30px;
+    cursor:pointer;
+    font-size: 11pt;
+    font-family: Dosis, sans-serif;
+}
+
+#tabela thead{
+    background:beige;
+}
+
+#tabela thead th:nth-child(1){
+    width:100px;
+}
+
+#tabela input{
+    color:navy;
+    width:100%;
+}
+/*tabela de publicações --- fim*/
+table caption {
+    padding: .5em 0;
+}
+
+@media screen and (max-width: 767px) {
+    table caption {
+        border-bottom: 1px solid #ddd;
+    }
+}
+
+
+
+
