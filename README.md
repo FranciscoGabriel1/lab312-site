@@ -3,6 +3,8 @@
 Para facilitar a responsibidade do site, utilizamos um tema, [Agency](https://startbootstrap.com/template-overviews/agency/), que é um tema de portfólio de agência de uma página para o [Bootstrap](http://getbootstrap.com/) criado pelo [Start Bootstrap](http://startbootstrap.com/). Este tema apresenta várias seções de conteúdo, uma grade de portfólio responsivo com efeitos de foco, modais de item de portfólio de página inteira, uma linha de tempo responsiva e um formulário de contato PHP em funcionamento.
 
 Esse é um site do Laboratório de Pesquisa em Computação do [ICET/UFAM](http://www.icet.ufam.edu.br/)
+
+Em construção: portfolio,eventos,colaboradores,contatos.
 ## Desenvolvedores:
   
 Francisco Gabriel, 
