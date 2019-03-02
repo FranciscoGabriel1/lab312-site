@@ -1,6 +1,7 @@
 
 body {
     font-family: 'Dosis', serif;
+
 }
 @font-face {
     font-family: Dosis;
@@ -143,7 +144,7 @@ input:hover{
     border-radius:2px;
     -moz-border-radius:2px;
     background: #ffffff;
-    border:0.1px solid #12CECE;
+    border:0.1px solid#12CECE ;
     width:150px
 }
 select{
@@ -272,6 +273,12 @@ table caption {
         border-bottom: 1px solid #ddd;
     }
 }
+
+/*carrousel com div tipo 1*/
+
+
+
+
 
 
 

@@ -53,6 +53,7 @@
     <link rel="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css"/>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Custom styles for this template -->
     <link href="css/agency.min.css" rel="stylesheet">
     <link href="css/lab312-flipbox.css" rel="stylesheet">
@@ -63,12 +64,19 @@
     <link href="css/particles.css" rel="stylesheet">
     <link href="css/aos.css" rel="stylesheet">
     <link href="css/hover.css" rel="stylesheet" media="all">
+    <link href="css/imagehover.min.css" rel="stylesheet" media="all">
 
     <!--<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css" rel="stylesheet" >-->
     <link href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css" rel="stylesheet" >
     <link href=" https://cdn.datatables.net/buttons/1.5.4/css/buttons.bootstrap4.min.css" rel="stylesheet" >
     <link href="https://cdn.datatables.net/select/1.2.7/css/select.bootstrap4.min.css" rel="stylesheet" >
     <link href="https://cdn.datatables.net/extensions/Editor/css/editor.bootstrap4.min.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+
 
     <script src="js/tabela312.js"></script>
     <!--<style>-->
@@ -108,7 +116,7 @@
                     <a class="nav-link js-scroll-trigger" href="#quemsomos">Quem somos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#ppo">Portifólio</a>
+                    <a class="nav-link js-scroll-trigger" href="#portfolio">Portifólio</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#projetos">Projetos</a>
@@ -150,6 +158,10 @@
         </div>
     </div>
 </header>
+
+
+
+
 
 
 <!-- SEÇÃO QUEM SOMOS -->
@@ -252,6 +264,110 @@
 </section>
 
 
+
+<!-- SEÇÃO PORTFOLIO -->
+<!-- portfolio grid -->
+<section class="showcase" id="portfolio" style="*margin-top: 0; ">
+    <!--&lt;!&ndash;<div class="container-fluid p-0">&ndash;&gt;-->
+        <div class="row no-gutters">
+
+            <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/item/back_port1.png'); width: 100%;">
+
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100 " src="img/item/zika.png" alt="First slide" data-aos="fade-up" style="animation-delay: 2s;height: 100%;width: 100%" >
+                            <!--<div class="carousel-caption d-none d-md-block">-->
+                                <!--<h5>Primeiro</h5>-->
+                                <!--<p>Proi</p>-->
+                            <!--</div>-->
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/item/real.png"alt="Second slide" data-aos="fade-up" style="animation-delay: 2s;height: 100%;width: 100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/item/noticiasicet.png" data-aos="fade-up" style="animation-delay: 2s;height: 100%;width: 100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/item/sigesp.png" data-aos="fade-up" style="animation-delay: 2s;height: 100%;width: 100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/item/aacc.png" data-aos="fade-up" style="animation-delay: 2s;height: 100%;width: 100%">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+            </div>
+            <div class="col-lg-6 order-lg-1 my-auto showcase-text" style="margin-top: 0">
+                <h2 data-aos="fade-down" style="animation-delay: 3s;">Aplicações Web e Mobile</h2>
+                <p class="lead mb-0" data-aos="zoom-in" style="animation-delay: 2.5s;">Trabalhamos com diversas tecnologias no desenvolvimento de Aplicações Web e Mobile, como Android, Ionic, Unity 2D, Yii, Grails, Laravel, Node JS, Angular, Semantic UI, Materialize, Booststrap, Jungle, entre outras. </p>
+            </div>
+        </div>
+
+        <div class="row no-gutters">
+            <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/item/back_port1.png');">
+
+
+                <div id="carouselSite" class="carousel slide" data-ride="carousel">
+
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselSite" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselSite" data-slide-to="1"></li>
+                        <li data-target="#carouselSite" data-slide-to="2"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" style="background-color: #008F84; height: 300px;">
+                            ajaja
+                        </div>
+                        <div class="carousel-item" style="background-color: #bd2130; height: 300px;">
+
+                        </div>
+                        <div class="carousel-item" style="background-color: #002752; height: 300px;">
+                        </div>
+                    </div>
+
+                    <a class="carousel-control-prev" href="#carouselSite" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+
+                    <a class="carousel-control-next" href="#carouselSite" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                        <span class="sr-only">Próximo</span>
+                    </a>
+                </div>
+
+            </div>
+
+
+            <div class="col-lg-6 my-auto showcase-text">
+                <h2 data-aos="fade-down" style="animation-delay: 3s;">Desktop e Internet das Coisas</h2>
+                <p class="lead mb-0" data-aos="zoom-in" style="animation-delay: 2.5s;">Para desenvolvimento Desktop utilizamos a linguagem Java. Para o contexto de Internet das Coisas e Sistemas Embarcados, utilizamos tecnologias como placas Arduíno, Galileu, ESP8266, Raspberry PI, Python, entre outras.</p>
+            </div>
+        </div>
+    <!--</div>-->
+
+
+
+</section>
+
+
 <!-- SEÇÃO PROJETOS -->
 <!-- PROJETOS grid -->
 <section class="section_projetos" id="projetos">
@@ -294,8 +410,7 @@
                     </div>
                     <div class="texto_card_projeto">
                         <p>São ações desenvolvidas com o objetivo de fomentar as atividades de pesquisa dentro das
-                            universidades. Geralmente acontecem através da monografia, no Trabalho de Conclusão de Curso
-                            (TCC), ou Iniciação Científica.</p>
+                            universidades. No ICET, Geralmente acontecem através de atividades de Iniciação Científica como PIBIC ou PDJ, por exemplo.</p>
                     </div>
                 </a>
             </div>
@@ -308,8 +423,7 @@
                         <h3>Extensão</h3>
                     </div>
                     <div class="texto_card_projeto">
-                        <p>Provavelmente essa é a característica que gere mais dúvidas entre os estudantes, por isso
-                            vamos ser mais detalhistas.</p>
+                        <p>Consiste em levar os conhecimentos adquiridos pelos alunos dentro da universidade para a sociedade. Dessa forma, os estudantes desenvolvem atividades subsidiadas pela instituição em outros locais.</p>
                     </div>
                 </a>
             </div>
@@ -318,6 +432,126 @@
         </div>
     </div>
 </section>
+
+<section  id="eventos">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading text-uppercase text-white">Portfolio</h2>
+                <img src="img/item/linha.png">
+
+
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Set up your HTML -->
+            <div class="owl-carousel">
+                <div> Your Content </div>
+                <div> Your Content </div>
+                <div> Your Content </div>
+                <div> Your Content </div>
+                <div> Your Content </div>
+                <div> Your Content </div>
+                <div> Your Content </div>
+            </div>
+        </div>
+
+        <!--<div class="row">-->
+            <!--<div class="col-md-4 col-sm-6 portfolio-item">-->
+                <!--<a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">-->
+                    <!--<div class="portfolio-hover">-->
+                        <!--<div class="portfolio-hover-content">-->
+                            <!--<i class="fas fa-plus fa-3x"></i>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="">-->
+                <!--</a>-->
+                <!--<div class="portfolio-caption">-->
+                    <!--<h4>Threads</h4>-->
+                    <!--<p class="text-muted">Illustration</p>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="col-md-4 col-sm-6 portfolio-item">-->
+                <!--<a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">-->
+                    <!--<div class="portfolio-hover">-->
+                        <!--<div class="portfolio-hover-content">-->
+                            <!--<i class="fas fa-plus fa-3x"></i>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="">-->
+                <!--</a>-->
+                <!--<div class="portfolio-caption">-->
+                    <!--<h4>Explore</h4>-->
+                    <!--<p class="text-muted">Graphic Design</p>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="col-md-4 col-sm-6 portfolio-item">-->
+                <!--<a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">-->
+                    <!--<div class="portfolio-hover">-->
+                        <!--<div class="portfolio-hover-content">-->
+                            <!--<i class="fas fa-plus fa-3x"></i>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="">-->
+                <!--</a>-->
+                <!--<div class="portfolio-caption">-->
+                    <!--<h4>Finish</h4>-->
+                    <!--<p class="text-muted">Identity</p>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="col-md-4 col-sm-6 portfolio-item">-->
+                <!--<a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">-->
+                    <!--<div class="portfolio-hover">-->
+                        <!--<div class="portfolio-hover-content">-->
+                            <!--<i class="fas fa-plus fa-3x"></i>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<img class="img-fluid" src="img/portfolio/04-thumbnail.jpg" alt="">-->
+                <!--</a>-->
+                <!--<div class="portfolio-caption">-->
+                    <!--<h4>Lines</h4>-->
+                    <!--<p class="text-muted">Branding</p>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="col-md-4 col-sm-6 portfolio-item">-->
+                <!--<a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">-->
+                    <!--<div class="portfolio-hover">-->
+                        <!--<div class="portfolio-hover-content">-->
+                            <!--<i class="fas fa-plus fa-3x"></i>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">-->
+                <!--</a>-->
+                <!--<div class="portfolio-caption">-->
+                    <!--<h4>Southwest</h4>-->
+                    <!--<p class="text-muted">Website Design</p>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="col-md-4 col-sm-6 portfolio-item">-->
+                <!--<a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">-->
+                    <!--<div class="portfolio-hover">-->
+                        <!--<div class="portfolio-hover-content">-->
+                            <!--<i class="fas fa-plus fa-3x"></i>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<img class="img-fluid" src="img/portfolio/06-thumbnail.jpg" alt="">-->
+                <!--</a>-->
+                <!--<div class="portfolio-caption">-->
+                    <!--<h4>Window</h4>-->
+                    <!--<p class="text-muted">Photography</p>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+
+    </div>
+
+</section>
+
+
+
+
+
 
 
 <!-- SEÇÃO PUBLICAÇÕES -->
@@ -455,20 +689,13 @@
                                         <td>Jungle: Um Framework para a Geração Automática de Códigos para Aplicações
                                             Web
                                         </td>
-                                        <td>Francisco gabriel Teixeira Marinho</td>
+                                        <td>Francisco Gabriel Teixeira Marinho</td>
                                         <td>Odette Mestrinho Passos</td>
                                         <td>2018</td>
                                         <td>Engenharia de Software</td>
                                         <td><a href="publicacoes/tcc/tcc_FcoGabriel_v_final.pdf" target="_blank">Ler/Baixar</a></td>
                                     </tr>
-                                    <tr>
-                                        <td>Learn+UML: uma software para apoiar o aprendizado da UML</td>
-                                        <td>Daiane Oliveira Ferreira</td>
-                                        <td>Odette Mestrinho Passos</td>
-                                        <td>2018</td>
-                                        <td>Engenharia de Software</td>
-                                        <td>www.icet.ufam/2</td>
-                                    </tr>
+
                                     </tbody>
                                     <tfoot>
                                     </tfoot>
@@ -606,95 +833,810 @@
 
 
 <!-- Team -->
-<section class="bg-light" id="team">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+<section class="bg-light" id="colaboradores">
+    <div class="container" >
+
+        <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase"
+                style="margin-bottom: 0px;color:#343a40;font-family: 'Dosis',sans-serif" data-aos="fade-up" data-aos-duration="1000">Nossos Colaboradores</h2>
+            <img src="img/item/linha.png" width="20%" style="margin-bottom: 3%;">
+            <h3 class="section-subheading "  data-aos="zoom-in" style="color: #343a40;">Nosso time é formado por professores e alunos que, com muita
+                dedicação, desempenham seus papéis buscando o fortalecimento acadêmico e profissional da
+                instituição </h3>
+        </div>
+
+        <div class="row" title="Arraste para a esquerda ou direita para ver mais colaboradores">
+            <!-- Set up your HTML -->
+            <div class="owl-carousel owl-theme owl-loaded ">
+
+
+                <div>
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="img/team/alano.jpg" alt="" style="width: 70%">
+                        <h4>Álano Grana</h4>
+                        <p class="text-muted">Engenharia de Software</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item">
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div >
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="img/team/alex.jpg" alt="" style="width: 70%">
+                        <h4>Alexsander Oliveira</h4>
+                        <p class="text-muted">Engenharia de Software</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item">
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div >
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="img/team/bruno.jpg" alt="" style="width: 70%">
+                        <h4>Bruno Iglesias</h4>
+                        <p class="text-muted">Engenharia de Software</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item">
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div >
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="img/team/bacry.png" alt="" style="width: 70%">
+                        <h4>Christian Bacry</h4>
+                        <p class="text-muted">Engenharia de Software (Egresso)</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item">
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div >
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="img/team/reis.jpg" alt="" style="width: 70%">
+                        <h4>Christian Reis</h4>
+                        <p class="text-muted">Engenharia de Software (Egresso)</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item">
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div >
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="img/team/daiane.png" alt="" style="width: 70%">
+                        <h4>Daiane Ferreira</h4>
+                        <p class="text-muted">Engenharia de Software (Egressa)</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item">
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div >
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="img/team/daniel.jpg" alt="" style="width: 70%">
+                        <h4>Daniel da Silva</h4>
+                        <p class="text-muted">Engenharia de Software (Egresso)</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item">
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div >
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="img/team/evelym.jpg" alt="" style="width: 70%">
+                        <h4>Evelym Vasconcelos</h4>
+                        <p class="text-muted">Sistemas de Informação</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item">
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="img/team/chico.jpg" alt="" style="width: 70%">
+                        <h4>Francisco Gabriel</h4>
+                        <p class="text-muted">Engenharia de Software (Egresso)</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item">
+                                <a href="https://www.linkedin.com/in/francisco-gabriel-867730130/" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.facebook.com/francisco.g.marinho" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.linkedin.com/in/francisco-gabriel-867730130/" target="_blank">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="img/team/padrao1.jpg" alt="" style="width: 70%">
+                        <h4>Hadson Sillas</h4>
+                        <p class="text-muted">Engenharia de Software</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div>
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="img/team/padrao.png" alt="" style="width: 70%">
+                        <h4>Jean Ferreira</h4>
+                        <p class="text-muted">Engenharia de Software</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="img/team/ketlen.jpg" alt="" style="width: 70%">
+                        <h4>Ketlen Colares</h4>
+                        <p class="text-muted">Sistemas de Informação</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="img/team/leonardo.jpg" alt="" style="width: 70%">
+                        <h4>Leonardo Jacaúna</h4>
+                        <p class="text-muted">Engenharia de Software</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="img/team/brigido.jpg" alt="" style="width: 70%">
+                        <h4>Lucas Brígido</h4>
+                        <p class="text-muted">Sistemas de Informação (Egresso)</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="img/team/padrao1.jpg" alt="" style="width: 70%">
+                        <h4>Luiz Carlos</h4>
+                        <p class="text-muted">Engenharia de Software</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="img/team/maik.jpg" alt="" style="width: 70%">
+                        <h4>Maik Elamide</h4>
+                        <p class="text-muted">Engenharia de Software</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="img/team/matheus.jpg" alt="" style="width: 70%">
+                        <h4>Matheus Porfírio</h4>
+                        <p class="text-muted">Sistemas de Informação (Egresso)</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="img/team/mathias.jpg" alt="" style="width: 70%">
+                        <h4>Mathias Menezes</h4>
+                        <p class="text-muted">Sistemas de Informação (Egresso)</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="img/team/micaelle.jpg" alt="" style="width: 70%">
+                        <h4>Micaelle Souza</h4>
+                        <p class="text-muted">Engenharia de Software</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="img/team/padrao.png" alt="" style="width: 70%">
+                        <h4>Ramon Breno</h4>
+                        <p class="text-muted">Engenharia de Software (Egresso)</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="img/team/rubber.jpg" alt="" style="width: 70%">
+                        <h4>Rubber Rodriguez</h4>
+                        <p class="text-muted">Engenharia de Software</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div>
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="img/team/rudda.jpg" alt="" style="width: 70%">
+                        <h4>Ruddá Beltrão</h4>
+                        <p class="text-muted">Sistemas de Informação (Egresso)</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="img/team/padrao1.jpg" alt="" style="width: 70%">
+                        <h4>Thuan Matheus</h4>
+                        <p class="text-muted">Sistemas de Informação</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="img/team/victor.jpg" alt="" style="width: 70%">
+                        <h4>Victor Lúcio</h4>
+                        <p class="text-muted">Engenharia de Software</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="img/team/wagner.jpg" alt="" style="width: 70%">
+                        <h4>Wagner Queiroz</h4>
+                        <p class="text-muted">Sistemas de Informação</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="img/team/padrao.png" alt="" style="width: 70%">
+                        <h4>Bruno Bonifácio</h4>
+                        <p class="text-muted">Professor Me. Informática</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                    <div>
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="img/team/christopher.jpg" alt="" style="width: 70%">
+                            <h4>Christopher Saint</h4>
+                            <p class="text-muted">Professor Me. Informática</p>
+                            <ul class="list-inline social-buttons">
+                                <li class="list-inline-item">
+                                    <a href="#" target="_blank">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" target="_blank">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" target="_blank">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="img/team/daniella.jpg" alt="" style="width: 70%">
+                            <h4>Daniella Costa</h4>
+                            <p class="text-muted">Professora Me. Informática</p>
+                            <ul class="list-inline social-buttons">
+                                <li class="list-inline-item">
+                                    <a href="#" target="_blank">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" target="_blank">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" target="_blank">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="img/team/odette.jpg" alt="" style="width: 70%">
+                            <h4>Odette M. Passos</h4>
+                            <p class="text-muted">Professora Dra. Informática</p>
+                            <ul class="list-inline social-buttons">
+                                <li class="list-inline-item">
+                                    <a href="#" target="_blank">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" target="_blank">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" target="_blank">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="" style="width: 70%">
+                            <h4>Priscila Fernandes</h4>
+                            <p class="text-muted">Professora Me. Informática</p>
+                            <ul class="list-inline social-buttons">
+                                <li class="list-inline-item">
+                                    <a href="#" target="_blank">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" target="_blank">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" target="_blank">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="img/team/rainer.jpg" alt="" style="width: 70%">
+                            <h4>Rainer Amorim</h4>
+                            <p class="text-muted">Professor Dr. Informática</p>
+                            <ul class="list-inline social-buttons">
+                                <li class="list-inline-item">
+                                    <a href="#" target="_blank">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" target="_blank">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" target="_blank">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-4">
-                <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
-                    <h4>Kay Garland</h4>
-                    <p class="text-muted">Lead Designer</p>
-                    <ul class="list-inline social-buttons">
-                        <li class="list-inline-item">
-                            <a href="#">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#">
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="">
-                    <h4>Larry Parker</h4>
-                    <p class="text-muted">Lead Marketer</p>
-                    <ul class="list-inline social-buttons">
-                        <li class="list-inline-item">
-                            <a href="#">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#">
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="">
-                    <h4>Diana Pertersen</h4>
-                    <p class="text-muted">Lead Developer</p>
-                    <ul class="list-inline social-buttons">
-                        <li class="list-inline-item">
-                            <a href="#">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#">
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+
+
+            <!--<div class="row">-->
+                <!--<div class="col-lg-8 mx-auto text-center">-->
+                    <!--<p class="large text-muted">Professores</p>-->
+                <!--</div>-->
+            <!--</div>-->
         </div>
-        <div class="row">
-            <div class="col-lg-8 mx-auto text-center">
-                <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque,
-                    laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
-            </div>
-        </div>
-    </div>
 </section>
 
 <!-- Clients -->
@@ -726,105 +1668,6 @@
 </section>
 
 
-<!-- Portfolio Grid -->
-<section style="background: url('img/item/back1.png'); -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;" id="portfolio">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading text-uppercase text-white">Portfolio</h2>
-                <img src="img/item/linha.png">
-
-
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                            <i class="fas fa-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="">
-                </a>
-                <div class="portfolio-caption">
-                    <h4>Threads</h4>
-                    <p class="text-muted">Illustration</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                            <i class="fas fa-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="">
-                </a>
-                <div class="portfolio-caption">
-                    <h4>Explore</h4>
-                    <p class="text-muted">Graphic Design</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                            <i class="fas fa-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="">
-                </a>
-                <div class="portfolio-caption">
-                    <h4>Finish</h4>
-                    <p class="text-muted">Identity</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                            <i class="fas fa-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img class="img-fluid" src="img/portfolio/04-thumbnail.jpg" alt="">
-                </a>
-                <div class="portfolio-caption">
-                    <h4>Lines</h4>
-                    <p class="text-muted">Branding</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                            <i class="fas fa-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">
-                </a>
-                <div class="portfolio-caption">
-                    <h4>Southwest</h4>
-                    <p class="text-muted">Website Design</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                            <i class="fas fa-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img class="img-fluid" src="img/portfolio/06-thumbnail.jpg" alt="">
-                </a>
-                <div class="portfolio-caption">
-                    <h4>Window</h4>
-                    <p class="text-muted">Photography</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 
 <!-- Contatos -->
@@ -832,12 +1675,12 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading text-uppercase">Contact Us</h2>
+                <h2 class="section-heading text-uppercase">Contactos</h2>
                 <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-6">
                 <form id="contactForm" name="sentMessage" novalidate="novalidate">
                     <div class="row">
                         <div class="col-md-6">
@@ -877,6 +1720,9 @@
                     </div>
                 </form>
             </div>
+            <div class="col-lg-6">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.8176411423115!2d-58.43379558589351!3d-3.14279259771157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x926f544687621215%3A0x52a4f776be14a86c!2sUFAM%2FICET+itacoatiara!5e0!3m2!1spt-BR!2sbr!4v1550181135800" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
         </div>
     </div>
 </section>
@@ -892,7 +1738,7 @@
                 <ul class="list-inline social-buttons">
                     <li class="list-inline-item">
                         <a href="#">
-                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-instagram"></i>
                         </a>
                     </li>
                     <li class="list-inline-item">
@@ -910,10 +1756,15 @@
             <div class="col-md-4">
                 <ul class="list-inline quicklinks">
                     <li class="list-inline-item">
-                        <a href="#">Privacy Policy</a>
+                        <a href="#">Política de Privacidade</a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="#">Terms of Use</a>
+                        <a href="#">Termos de Uso</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="btn btn-xl text-uppercase js-scroll-trigger  animated fadeInUp hvr-icon-hang"
+                           href="#page-top"
+                           style="animation-delay: 1.5s;" title="Ir para o início da página"> <i class="fa fa-chevron-up hvr-icon"></i></a>
                     </li>
                 </ul>
             </div>
@@ -1143,12 +1994,8 @@
                     <div class="col-lg-12 mx-auto">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2 class="text-uppercase">Ensino</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                nostrum, reiciendis facere nemo!</p>
+                            <h2 class="text-uppercase">Atividades de Ensino</h2>
+                            <p>Veja abaixo algumas atividades de ensino realizadas por colaboradores do Laboratório 312</p>
                             <table id="tableens" class="display table table-striped table-bordered" style="width:100%">
                                 <thead>
                                 <tr>
@@ -1160,59 +2007,12 @@
                                 </thead>
                                 <tbody>
                                 <tr>
-                                    <td>System Architect</td>
-                                    <td>Edinburgh</td>
-                                    <td>61</td>
-                                    <td>$320,800</td>
+                                    <td>Em breve</td>
+                                    <td>Em breve</td>
+                                    <td>Em breve</td>
+                                    <td>Em breve</td>
                                 </tr>
-                                <tr>
-                                    <td>Cedric Kelly</td>
-                                    <td>Senior Javascript Developer</td>
-                                    <td>Edinburgh</td>
-                                    <td>22</td>
-                                </tr>
-                                <tr>
-                                    <td>Sonya Frost</td>
-                                    <td>Software Engineer</td>
-                                    <td>Edinburgh</td>
-                                    <td>$103,600</td>
-                                </tr>
-                                <tr>
-                                    <td>Quinn Flynn</td>
-                                    <td>Support Lead</td>
-                                    <td>Edinburgh</td>
-                                    <td>$342,000</td>
-                                </tr>
-                                <tr>
-                                    <td>Dai Rios</td>
-                                    <td>Personnel Lead</td>
-                                    <td>Edinburgh</td>
-                                    <td>$217,500</td>
-                                </tr>
-                                <tr>
-                                    <td>Gavin Joyce</td>
-                                    <td>Developer</td>
-                                    <td>Edinburgh</td>
-                                    <td>$92,575</td>
-                                </tr>
-                                <tr>
-                                    <td>Martena Mccray</td>
-                                    <td>Post-Sales support</td>
-                                    <td>Edinburgh</td>
-                                    <td>$324,050</td>
-                                </tr>
-                                <tr>
-                                    <td>Jennifer Acosta</td>
-                                    <td>Junior Javascript Developer</td>
-                                    <td>Edinburgh</td>
-                                    <td>$75,650</td>
-                                </tr>
-                                <tr>
-                                    <td>Shad Decker</td>
-                                    <td>Regional Director</td>
-                                    <td>Edinburgh</td>
-                                    <td>$183,000</td>
-                                </tr>
+
                                 </tbody>
                                 <tfoot>
                                 </tfoot>
@@ -1243,75 +2043,43 @@
                     <div class="col-lg-12 mx-auto">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2 class="text-uppercase">Pesquisa</h2>
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                nostrum, reiciendis facere nemo!</p>
+                            <h2 class="text-uppercase">Atividades de Pesquisa</h2>
+                            <p>Veja abaixo algumas atividades de pesquisa realizadas por colaboradores do Laboratório 312</p>
                             <table id="tablepes" class="display table table-striped table-bordered" style="width:100%">
-                                <thead >
+                                <thead>
                                 <tr>
                                     <th>Título</th>
                                     <th>Resumo</th>
-                                    <th>Coordenador</th>
+                                    <th>Coordenador(a)</th>
                                     <th>Membros</th>
                                 </tr>
                                 </thead>
                                 <tbody>
                                 <tr>
-                                    <td>System Architect</td>
-                                    <td>Edinburgh</td>
-                                    <td>61</td>
-                                    <td>$320,800</td>
+                                    <td style="text-align: justify">A Internet das Coisas na Agricultura: Contribuições
+                                        para Realizar a Predição de Condições Ideais para Plantio, Cultivo e Colheita
+                                    </td>
+                                    <td style="text-align: justify">A agricultura enfrenta, constantemente, o desafio de
+                                        aumentar a produção de alimentos com regularidade, sendo afetada por alguns
+                                        problemas, como a dificuldade do controle da temperatura do ambiente, da umidade
+                                        e do solo e da probabilidade de chuvas. Aliado a isso, ainda podemos citar a
+                                        falta de alternativas tecnológicas adequadas às condições de trabalho dos
+                                        agricultores. Uma das alternativas seria o uso de um revolução tecnológica
+                                        denominada Internet das Coisas que tem como intuito conectar objetos à internet,
+                                        agindo de modo interativo, inteligente e sensorial. Nesse contexto, este
+                                        trabalho tem como objetivo descrever um mecanismo, que utilize o conceito de
+                                        Internet das Coisas, interligando objetos que monitoram a temperatura do
+                                        ambiente, a umidade do solo e a probabilidade de chuva visando contribuir no
+                                        aumento da produtividade dos agricultores. Como resultado do estudo, espera-se
+                                        que o mecanismo possa ser utilizado como contribuição para suprir a falta de
+                                        alternativas tecnológicas para o agricultor possibilitando a predição de
+                                        condições ideais para o plantio, cultivo e a colheita.
+                                    </td>
+                                    <td>Profa. Odette Mestrinho Passos</td>
+                                    <td>Ramon Breno dos Santos Rodrigues</td>
                                 </tr>
-                                <tr>
-                                    <td>Cedric Kelly</td>
-                                    <td>Senior Javascript Developer</td>
-                                    <td>Edinburgh</td>
-                                    <td>22</td>
-                                </tr>
-                                <tr>
-                                    <td>Sonya Frost</td>
-                                    <td>Software Engineer</td>
-                                    <td>Edinburgh</td>
-                                    <td>$103,600</td>
-                                </tr>
-                                <tr>
-                                    <td>Quinn Flynn</td>
-                                    <td>Support Lead</td>
-                                    <td>Edinburgh</td>
-                                    <td>$342,000</td>
-                                </tr>
-                                <tr>
-                                    <td>Dai Rios</td>
-                                    <td>Personnel Lead</td>
-                                    <td>Edinburgh</td>
-                                    <td>$217,500</td>
-                                </tr>
-                                <tr>
-                                    <td>Gavin Joyce</td>
-                                    <td>Developer</td>
-                                    <td>Edinburgh</td>
-                                    <td>$92,575</td>
-                                </tr>
-                                <tr>
-                                    <td>Martena Mccray</td>
-                                    <td>Post-Sales support</td>
-                                    <td>Edinburgh</td>
-                                    <td>$324,050</td>
-                                </tr>
-                                <tr>
-                                    <td>Jennifer Acosta</td>
-                                    <td>Junior Javascript Developer</td>
-                                    <td>Edinburgh</td>
-                                    <td>$75,650</td>
-                                </tr>
-                                <tr>
-                                    <td>Shad Decker</td>
-                                    <td>Regional Director</td>
-                                    <td>Edinburgh</td>
-                                    <td>$183,000</td>
-                                </tr>
+
+
                                 </tbody>
                                 <tfoot>
                                 </tfoot>
@@ -1342,11 +2110,8 @@
                     <div class="col-lg-12 mx-auto">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2 class="text-uppercase">Extensão</h2>
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                nostrum, reiciendis facere nemo!</p>
+                            <h2 class="text-uppercase">Atividades de Extensão</h2>
+                            <p>Veja abaixo algumas atividades de extensão realizadas por colaboradores do Laboratório 312</p>
 
                             <table id="tableext" class="display table table-striped table-bordered" style="width:100%">
                                 <thead >
@@ -1359,59 +2124,12 @@
                                 </thead>
                                 <tbody>
                                 <tr>
-                                    <td>System Architect</td>
-                                    <td>Edinburgh</td>
-                                    <td>61</td>
-                                    <td>$320,800</td>
+                                    <td style="text-align: justify">Aprendendo os Fundamentos da Lógica de Programação através de Conceitos Matemáticos</td>
+                                    <td style="text-align: justify">A educação passa por transformações com a inserção de tecnologias de comunicação e informação para realizar o processo de aprendizagem. Uma das maneiras de apoiar essas transformações é investir em ações que podem contribuir na captação de pessoas para atuarem na área da Tecnologia da Informação, uma vez que a demanda por profissionais nesta área vem crescendo cada vez mais. Nesse sentido, o propósito desse trabalho é mostrar uma possível solução de motivação de forma a atrair pessoas para a área de computação. Para isso, este projeto visa ensinar os fundamentos da lógica de programação, para alunos do ensino médio, através do uso de conceitos matemáticos. A lógica de programação, além de organizar as ideias, desenvolve o raciocínio lógico e ajuda a ver o mundo de maneira mais criativa e crítica. As atividades utilizadas na execução deste projeto envolvem tanto jogos para incentivar o raciocínio lógico, quanto à aplicação de exercícios de matemática para aprender os conceitos de programação. Como resultado espera-se despertar o interesse dos alunos do ensino médio para temas e assuntos de natureza científico-tecnológica e motivá-los a seguirem carreira na área da Tecnologia da Informação, além de trabalhar em equipe e desenvolver programas computacionais com conteúdos matemáticos que poderão ajudar na aprendizagem dessa matéria.</td>
+                                    <td>Odette Mestrinho Passos e Anacilia Maria Cavalcante de Almeida Palmeira</td>
+                                    <td> Bruno Pedraça de Souza, Daniel da Silva Costa, Daniel Mitsuaki da Silva Utyiama, Eligelson Belém de Assis, Max de Oliveira dos Santos, Raimundo Felix da Rocha, Robilene da Costa Marques e Sandro da Cruz Maruxo</td>
                                 </tr>
-                                <tr>
-                                    <td>Cedric Kelly</td>
-                                    <td>Senior Javascript Developer</td>
-                                    <td>Edinburgh</td>
-                                    <td>22</td>
-                                </tr>
-                                <tr>
-                                    <td>Sonya Frost</td>
-                                    <td>Software Engineer</td>
-                                    <td>Edinburgh</td>
-                                    <td>$103,600</td>
-                                </tr>
-                                <tr>
-                                    <td>Quinn Flynn</td>
-                                    <td>Support Lead</td>
-                                    <td>Edinburgh</td>
-                                    <td>$342,000</td>
-                                </tr>
-                                <tr>
-                                    <td>Dai Rios</td>
-                                    <td>Personnel Lead</td>
-                                    <td>Edinburgh</td>
-                                    <td>$217,500</td>
-                                </tr>
-                                <tr>
-                                    <td>Gavin Joyce</td>
-                                    <td>Developer</td>
-                                    <td>Edinburgh</td>
-                                    <td>$92,575</td>
-                                </tr>
-                                <tr>
-                                    <td>Martena Mccray</td>
-                                    <td>Post-Sales support</td>
-                                    <td>Edinburgh</td>
-                                    <td>$324,050</td>
-                                </tr>
-                                <tr>
-                                    <td>Jennifer Acosta</td>
-                                    <td>Junior Javascript Developer</td>
-                                    <td>Edinburgh</td>
-                                    <td>$75,650</td>
-                                </tr>
-                                <tr>
-                                    <td>Shad Decker</td>
-                                    <td>Regional Director</td>
-                                    <td>Edinburgh</td>
-                                    <td>$183,000</td>
-                                </tr>
+
                                 </tbody>
                                 <tfoot>
                                 </tfoot>
@@ -1432,6 +2150,7 @@
 
 <!-- Bo- Custom scripts for this template -->
 <script src="js/agency.min.js"></script>
+<script src="js/lightslider.js"></script>
 <script src="vendor/jquery/jquery.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- Plugin JavaScript -->
@@ -1638,7 +2357,51 @@
 }
 
 const text = document.querySelector('.typewriter');
-typewriter(text);</script>
+typewriter(text);
+</script>
+
+
+
+<script>
+    $('#carouselExampleIndicators').on('slide.bs.carousel', function () {
+        // do something…
+    })
+</script>
+
+
+
+<script>
+    $('.carousel').carousel({
+        interval: 4000
+    })
+</script>
+
+<script src="js/jquery.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+        $(".owl-carousel").owlCarousel();
+    });
+
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:3
+            }
+        }
+    })
+</script>
+
 
 </body>
 
