@@ -2,5 +2,8 @@
 
 O site encontra-se disponível em: https://www.icet.ufam.edu.br/grupopesq/gptec/lab312/
 
+![lab312](https://github.com/FranciscoGabriel1/lab312-site/assets/46074137/dfb1e643-c642-4649-a02b-5c57900428fa)
+
+
 
 
